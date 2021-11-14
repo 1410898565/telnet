@@ -1,1 +1,3 @@
 # telnet
+这是一个用c语言写的telnet服务端模拟程序，功能就是能够通过seccureCRT或ssh等工具，能直接telnet进入设备，然后进行命令操作。
+该telnet服务器模拟程序，采用的是Unix socket编程实现，端口避开了默认的23，而是用了其它端口
